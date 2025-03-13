@@ -2,8 +2,8 @@
 
 if [ "$#" -lt 4 ]; then
   echo "Usage: $0 <query_data> <built_graph_row> <built_graph_dimension> <l2/ip/cos> [display top k]" >&2
-  echo "For example: $0 letter.scale.t 15000 26 cos" >&2
-  echo "Use display top 5: $0 letter.scale.t 15000 26 cos 5" >&2
+  echo "For example: $0 letter.scale.t 15000 32 cos" >&2
+  echo "Use display top 5: $0 letter.scale.t 15000 32 cos 5" >&2
   exit 1
 fi
 
